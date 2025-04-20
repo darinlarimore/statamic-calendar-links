@@ -65,7 +65,7 @@ export default {
 	computed: {
 		isValid() {
 			if (!this.config.required) return true;
-			return this.buttonLabel &&
+			return this.button_label &&
 				this.title &&
 				this.startDate &&
 				this.startTime &&
