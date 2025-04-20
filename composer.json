@@ -1,0 +1,38 @@
+{
+    "name": "darinlarimore/statamic-calendar-links",
+    "autoload": {
+        "psr-4": {
+            "Darinlarimore\\StatamicCalendarLinks\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Darinlarimore\\StatamicCalendarLinks\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "statamic/cms": "^5.0",
+        "spatie/calendar-links": "^1.11"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "pixelfear/composer-dist-plugin": true
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic Calendar Links",
+            "description": "Statamic Calendar Links addon"
+        },
+        "laravel": {
+            "providers": [
+                "Darinlarimore\\StatamicCalendarLinks\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
