@@ -1,5 +1,6 @@
 {
     "name": "darinlarimore/statamic-calendar-links",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Darinlarimore\\StatamicCalendarLinks\\": "src"
